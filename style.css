@@ -2,11 +2,12 @@ body {
   display: flex;
   justify-content: center;
   background-color: rgb(253, 206, 19);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .calculator {
   margin-top: 90px;
-  width: 500px;
+  width: 600px;
   height: 700px;
   background-color: rgb(42, 58, 58);
   border: 3px solid black;
@@ -40,7 +41,7 @@ button {
 
 #clear {
   display: flex;
-  flex-grow: 4.4;
+  flex-grow: 4;
 }
 
 #divide {
@@ -50,7 +51,7 @@ button {
 
 #zero {
   display: flex;
-  flex-grow: 4.4;
+  flex-grow: 4;
 }
 
 #equal {
